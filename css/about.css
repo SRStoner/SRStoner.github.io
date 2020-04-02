@@ -1,0 +1,54 @@
+body{
+    background-color: #FFE4C4;
+    text-align: center;
+  }
+  .NavBar {
+    background-color:#FFE4C4;
+    overflow: hidden;
+  }
+  
+  div.NavBar{
+    margin-top:20px;
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .NavBar a {
+    float: left;
+    color: #050303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .NavBar a:hover {
+    background-color: burlywood;
+    color: black;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .NavBar a.active {
+    background-color: rgb(78, 51, 18);
+    color: white;
+  
+  }
+  center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .displayblock{
+    text-align: center;
+    padding: 10px;
+  }
+  .displayblock li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
