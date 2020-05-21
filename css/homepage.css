@@ -1,6 +1,7 @@
 body{
     background-color:#FFE4C4 ;
     text-align: center;
+    overflow: scroll;
   }
   div.NavBar{
     margin-top:20px;

@@ -1,6 +1,8 @@
 body{
     background-color: #FFE4C4;
     text-align: center;
+    overflow: scroll;
+
   }
   .NavBar {
     background-color:#FFE4C4;
@@ -50,5 +52,14 @@ body{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .footer {
+    top: 950px;
+    left:0px;
+    bottom:0px;
+    height: 100px;
+    width:100%;
+    background-color:rgb(66, 42, 12);
+    color: #FFE4C4;
   }
   
