@@ -44,9 +44,11 @@ body{
   h1{
     border: 3px solid rgb(78, 51, 18);
     display:inline;
+    
   }
   p{
     text-align: center;
+    font-size: large;
   }
   .ProfilePic{
     text-align: center;
