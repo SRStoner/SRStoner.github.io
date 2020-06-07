@@ -58,6 +58,7 @@ body{
     width:100%;
     background-color:rgb(66, 42, 12);
     color: #FFE4C4;
+    margin-top: -50px;
   }
   p{
     font-size: larger;
