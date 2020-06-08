@@ -2,7 +2,10 @@ body{
     background-color: #FFE4C4;
     text-align: center;
     overflow: scroll;
-
+    margin-bottom: -175px;
+  }
+  info{
+    position: relative;
   }
   .NavBar {
     background-color:#FFE4C4;
@@ -52,10 +55,20 @@ body{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 50px;
   }
   hr{
     width: 45%;
     border-color: #050303;
+  }
+  .footer {
+    left:0px;
+    bottom:0px;
+    height: 150px;
+    width:100%;
+    background-color:rgb(66, 42, 12);
+    color: #FFE4C4;
+    clear: both;
   }
 
   

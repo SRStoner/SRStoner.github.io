@@ -2,7 +2,7 @@ body{
     background-color: #FFE4C4;
     text-align: center;
     overflow: scroll;
-    margin-bottom: 175px;
+    margin-bottom: -175px;
   }
   
   .NavBar {
@@ -49,13 +49,13 @@ body{
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 50px;
+    padding-top: 35px;
   }
   .footer {
     position:fixed;
     left:0px;
     bottom:0px;
-    height: 175px;
+    height: 150px;
     width:100%;
     background-color:rgb(66, 42, 12);
     color: #FFE4C4;
