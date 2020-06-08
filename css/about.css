@@ -61,6 +61,9 @@ body{
     width: 45%;
     border-color: #050303;
   }
+  p:hover{
+    background-color: burlywood;
+  }
   .footer {
     left:0px;
     bottom:0px;
