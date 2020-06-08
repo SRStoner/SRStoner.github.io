@@ -52,12 +52,14 @@ body{
     padding-top: 35px;
   }
   .footer {
+    position:absolute;
     left:0px;
     bottom:0px;
     height: 150px;
     width:100%;
     background-color:rgb(66, 42, 12);
     color: #FFE4C4;
+    clear: both;
   }
   p{
     font-size: larger;
