@@ -58,12 +58,13 @@ body{
     font-size: 200%;
   }*/
   
-  .ProfilePic{
+  .ProfilePic img {
     text-align: center;
-    width: 300;
+    width: 350px;
     display: block;
     margin-left:auto;
     margin-right:auto;
+    transform:rotate 360;
   }
   .displayblock{
     text-align: center;
