@@ -1,7 +1,7 @@
 body{
     background-color: #FFE4C4;
     text-align: center;
-    overflow: scroll;
+    overflow-y: scroll;
     margin-bottom: -150px;
   }
   div.info{
@@ -67,14 +67,16 @@ body{
   p{
     line-height: 20px;
   }
+  /*
   p:hover{
     background-color: burlywood;
     display: inline-block;
-    width: 45%;
+    width: 65%;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-  }
+  }*/
+  
   .footer {
     left:0px;
     bottom:0px;

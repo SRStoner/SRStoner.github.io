@@ -1,9 +1,19 @@
 body{
     background-color:#FFE4C4;
     text-align: center;
-    overflow: scroll;
+    overflow-y: scroll;
     margin-bottom: -150px;
   }
+  /*https://www.tutorialspoint.com/Is-it-possible-to-have-an-HTML-canvas-
+  element-in-the-background-of-my-page Used this website to help 
+  learn about canvas
+  */
+  canvas{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+ }
   div.NavBar{
     margin-top:20px;
   }
@@ -59,7 +69,6 @@ body{
   }*/
   
   .ProfilePic img {
-    text-align: center;
     width: 350px;
     display: block;
     margin-left:auto;
