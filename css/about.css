@@ -66,6 +66,9 @@ body{
   }
   p{
     line-height: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 45%;
   }
   /*
   p:hover{

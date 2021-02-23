@@ -103,4 +103,4 @@ animate();
 setInterval(function() {
   bal.push(new Ball());
   bal.splice(0, 1);
-}, 400);
+}, 100);

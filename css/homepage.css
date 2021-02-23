@@ -55,8 +55,14 @@ body{
   h1{
     border: 3px solid rgb(78, 51, 18);
     display:inline;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+  }
+  .topText{
+    text-align: center;
+    font-size: large;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    Just an example of the importance of div as you can manipulate only certain elements with the same commong tags like <p> or <h1>
+    */
   }
   p{
     text-align: center;
@@ -70,10 +76,8 @@ body{
   
   .ProfilePic img {
     width: 350px;
-    display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right:auto;
-    transform:rotate 360;
   }
   .displayblock{
     text-align: center;
@@ -97,3 +101,8 @@ body{
     color: #FFE4C4;
     clear: both;
   }
+  /*
+  .leftText{
+    float: left;
+    margin-left: 200px;
+  }*/
